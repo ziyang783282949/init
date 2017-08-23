@@ -21,45 +21,16 @@ import org.apache.commons.lang.time.DateUtils;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
-import com.spirit.porker.dao.BlindDao;
-import com.spirit.porker.dao.CreditsDao;
-import com.spirit.porker.dao.EventDao;
-import com.spirit.porker.dao.OrderDao;
 import com.spirit.porker.dao.OrderIdGenerator;
-import com.spirit.porker.dao.RewardDao;
-import com.spirit.porker.dao.ShopDao;
-import com.spirit.porker.dao.TicketDao;
 import com.spirit.porker.dao.UserDao;
 
 @Service
 public class SettingService {
 
-	@Resource
-	BlindDao blindDao;
-
-	@Resource
-	EventDao eventDao;
-
-	@Resource
-	UserDao userDao;
-
-	@Resource
-	OrderDao orderDao;
-
-	@Resource
-	RewardDao rewardDao;
-
-	@Resource
-	TicketDao ticketDao;
-
-	@Resource
-	ShopDao shopDao;
 
 	@Resource
 	OrderIdGenerator orderIdGenerator;
 
-	@Resource
-	CreditsDao creditsDao;
 
 	
 
